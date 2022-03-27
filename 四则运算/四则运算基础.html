@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+
+			body{
+				margin: 0;
+				padding: 0;
+				
+			}
+
+			.header{
+				height: 135px;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				background-position:-30px -42px;
+			}
+
+			.content{
+				height: 510px;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.content-1{
+				width: 100%;
+				height: 50px;
+				line-height: 50px;
+				margin-left: 250px;
+			}
+
+			.content-1 span{
+				font-size: 18px;
+			}
+
+			.content-1 input{
+				width: 30px;
+			}
+
+			.footer{
+				width: 100%;
+				height: 40px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			form{
+				width: 100%;
+				height: 40px;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+			}
+			.a1{
+				margin-left: 300px;
+			}
+		</style>
+	</head>
+	<body background="背景三.png" style="background-size: 30%;">
+<!-- 头部信息 -->
+		<div class="header" style="text-align: center;" >
+		    <h1 > 小学生四则运算(基础加减法)</h1>
+            <h2> 答题时间：
+                    <span id="id_M" >00:</span>
+					<span>:</span>
+                     <span id="id_S" >00</span>   </h2>
+					 <td style="text-align: center;"> 模式选择：</td>
+					 <td style="width: 500px;"> 
+						<select  onchange="window.location=this.value;"> 
+						 <option value="">--请选择模式--</option>
+						 <option value="">基础模式</option>
+						 <option value="四则运算困难.html"> 困难模式 </option>
+						 <option value="四则运算进阶.html">进阶模式</option>
+					 </select>
+					 </td>
+		</div>
+<!-- 出题内容 -->
+			<table border="1" width="100%" align="center"  >
+				<tr>  
+					<td>
+						<div class="content">
+<!-- 页面的整体设计和排版 -->
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+				
+						</div>
+					</td>
+					
+					<td>
+						<div class="content">
+	
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+							<div class="content-1">
+								<span class="sp">3 + 3 + 3 = </span>
+								<input type="text" class="answer" value="" />
+							</div>
+				
+						</div>
+					</td>
+		</tr>
+<!-- 底部标签 -->
+		
+		<div class="footer" style="text-align: center;">
+			<form action="" method="">   
+			<td> <input type="button" class="a1" id="bt1" value="判断正确性 "  /> </td>
+			<td> <input type="button" class="a1"   id="bt2" value="开始做题" /> </td>   
+			</form>
+			</div>
+		</table>
+		 <script type="text/javascript">
+// 计时变量
+			var c = 0
+			var timer = null
+// document.getElementById(xx)代表获取一个指定id值的对象
+			var oBt1 = document.getElementById("bt1")
+			var oBt2 = document.getElementById("bt2")
+			var oContent = document.getElementsByClassName("sp")
+			var Answer = document.getElementsByClassName("answer")
+			var id_S = document.getElementById("id_S")
+			var id_M = document.getElementById("id_M")
+			oBt1.onclick = function(){
+				var count = 0
+				for(var i = 0;i < oContent.length;i++){
+					strs = oContent[i].innerHTML.split(" ")
+					Ans = Answer[i].value
+					var add1 = strs[0]
+					var operator_1 = strs[1]
+					var add2 = strs[2]
+					var add3 = strs[4]
+					var operator_2= strs[3]
+					var c = 0
+// operator_1和operator_2分别代表两个符号，number代表生产的随机数
+					if(operator_1== "+"){
+						if(operator_2=="+"){
+							c=Number(add1) + Number(add2) + Number(add3);
+							if(Number(add1) + Number(add2) + Number(add3) == Number(Ans)){
+							count++;
+						}else{
+							Answer[i].style.backgroundColor = "red";
+							Answer[i].value=c;
+						}
+					    }
+					    }
+
+						if(operator_1== "+"){
+						if(operator_2=="-"){
+							c=Number(add1) + Number(add2) - Number(add3);
+							if(Number(add1) + Number(add2) - Number(add3) == Number(Ans)){
+							count++;
+						}else{
+							Answer[i].style.backgroundColor = "red";
+							Answer[i].value=c;
+						}
+					    }
+					    }
+
+					if(operator_1== "-"){
+						if(operator_2=="+"){
+							c=Number(add1) - Number(add2) + Number(add3);
+							if(Number(add1) - Number(add2) + Number(add3) == Number(Ans)){
+							count++;
+						}else{
+							Answer[i].style.backgroundColor = "red";
+							Answer[i].value=c;
+						}
+					    }
+					    }
+
+						if(operator_1== "-"){
+						if(operator_2=="-"){
+							c=Number(add1) - Number(add2) - Number(add3);
+							if(Number(add1) - Number(add2) - Number(add3) == Number(Ans)){
+							count++;
+						}else{
+							Answer[i].style.backgroundColor = "red";
+							Answer[i].value=c;
+						}
+					    }
+					    }
+					
+				}
+				
+// 新增计时功能，结束计时
+				c = 0
+//数据清零
+				Min = id_M.innerText
+				S = id_S.innerText
+				id_S.innerHTML = "00"
+				id_M.innerHTML = "00"
+				alert("恭喜你答对了"+count+"题!"+"共用时"+Min+"分"+S+"秒！")
+			}
+// 下一页 开始计时
+			oBt2.onclick = function(){
+				for(var i = 0;i < oContent.length;i++){
+					Answer[i].style.backgroundColor = "white";
+					Answer[i].value = " "
+					var add1 = parseInt(Math.random()*100)
+					var add2 = parseInt(Math.random()*100)
+					var add3 = parseInt(Math.random()*100)
+					var ope1 = Math.round(Math.random()*4)
+					var ope2 = Math.round(Math.random())
+					strs = oContent[i].innerHTML.split(" ")
+					if(ope1 == 0){
+						strs[1] = "+"
+					}
+					if(ope1 == 1){
+						strs[1] = "-"
+					}
+					if(ope1 == 2){
+						strs[1] = "+"
+					}
+					if(ope1 == 3){
+						strs[1] = "-"
+					}
+					
+					if(ope2 == 0){
+						strs[3] = "+"
+					}
+					if(ope2 == 1){
+						strs[3] = "-"
+					}
+					strs[0] = add1
+					strs[2] = add2
+					strs[4] = add3
+					oContent[i].innerText = strs[0]+" "+strs[1]+" "+strs[2]+" "+strs[3]+" "+strs[4]+" "+strs[5]
+				}
+
+// 新增计时功能，开始计时
+				timer = setInterval(function() {
+				    c++;
+// 需要改变页面上时分秒的值
+				    id_S.innerHTML = showNum(c % 60)
+				    id_M.innerHTML = showNum(parseInt(c / 60) % 60)
+				},1000)
+			}
+//封装一个处理单位数字的函数
+			function showNum(num) {
+			    if (num < 10) {
+			        return '0' + num
+			    }
+			    return num
+			}
+		</script> 
+	</body>
+</html>
+
